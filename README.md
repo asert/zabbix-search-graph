@@ -3,7 +3,7 @@ Zabbix mod search for graphs name
 
 # Support
 
-I tested this code with Zabbix 4.0.x, Zabbix 4.2.x
+I tested this code with Zabbix 4.0.x, Zabbix 4.2.x, Zabbix 4.4.x
 
 # Install
 
