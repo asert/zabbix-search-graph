@@ -9,7 +9,7 @@ I tested this code with Zabbix 4.0.x, Zabbix 4.2.x, Zabbix 4.4.x
 
 For install this mod you need edit file **search.php**.
 
-For **Zabbix 4.0.x** added code from file zabbix-search-graph.php in the end of the file **/usr/share/zabbix/search.php** before these lines:
+For **Zabbix 4.0.x** added code from file zabbix-v4.0.x-search-graph.php in the end of the file **/usr/share/zabbix/search.php** before these lines:
 ```
   (new CWidget())
 		->setTitle(_('Search').':'.SPACE.$search)
@@ -18,7 +18,7 @@ For **Zabbix 4.0.x** added code from file zabbix-search-graph.php in the end of 
 
   require_once dirname(__FILE__).'/include/page_footer.php';
 ```
-For **Zabbix 4.2.x** or later added from file zabbix-v4.x.x-search-graph.php in the end of the file **/usr/share/zabbix/app/views/search.php** before:
+For **Zabbix 4.2.x** or later added from file zabbix-v4.x.x-search-graph.php (x.x - you need to use your version) in the end of the file **/usr/share/zabbix/app/views/search.php** before:
 ```
 (new CWidget())
         ->setTitle(_('Search').': '.$data['search'])
