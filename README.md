@@ -18,7 +18,7 @@ For **Zabbix 4.0.x** added code from file zabbix-search-graph.php in the end of 
 
   require_once dirname(__FILE__).'/include/page_footer.php';
 ```
-For **Zabbix 4.2.x** and **Zabbix 4.4.x** added from file zabbix-v4.2-search-graph.php in the end of the file **/usr/share/zabbix/app/views/search.php** before:
+For **Zabbix 4.2.x** and **Zabbix 4.4.x** added from file zabbix-v4.X.X-search-graph.php in the end of the file **/usr/share/zabbix/app/views/search.php** before:
 ```
 (new CWidget())
         ->setTitle(_('Search').': '.$data['search'])
